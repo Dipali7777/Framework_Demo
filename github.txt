@@ -1,0 +1,89 @@
+Shared Code Repository - Where we store our code base
+Why we need code repository?
+Ans: - To integrate Code
+To shared at common centralize location
+To secure everyday your code on remote repository
+To available code for all projects/team mates at 1 place to review
+
+Pre-Requisites: -
+1 - We should have Java Installed on our machine
+2 - We should download Git desktop to our local machine & install it
+3 - We should download TortoiseGit to our local machine & install it
+4-   - We should have GitHub ka registration/signup
+Got to https://github.com/
+CLick on Signup
+Using your gmail id signup
+click on Login
+Enter user/password
+
+
+
+
+Scenario 1 - Chaitnya Joined as a automation tester, he needs to download remote repository to his
+local machine and start automation of login feature
+Step 1 - Clone repository - Get the latest code from Remote to local machine
+Step 2 - Create Branch - Create a child branch from your main/master branch
+Step 3 - Switch to newly created branch
+Step 4 - Implementation/ code update/alter/add
+Step 5 - Commit - Will always commit the changes to local
+Step 6 - Push - Changes you saved on local with push to remote repository
+Step 7 - Pull Request - Code is available for code review, drop an email with file changed path
+STep 8 - Merge branch to main/master branch - Code reviwer
+Step 9 - Delete Branch
+
+
+
+Scenario 2 - Pranita is working from US-(6PM-4AM), Surekha is working from India(9AM-6PM)
+Both are working on same project, automating same feature
+Sayali is code reviwer,
+Surekha's Steps
+Step 1 - Clone Repository(If framework is not available on local) OR
+Step 1 - Pull the latest changes from remote repository to local repository
+Step 2 - Create Branch - Registration feature
+Step 3 - Switch to newly created branch
+Step 4 - Implementation/ code update/alter/add - Adding locator and action for feature
+Step 5 - Commit - Will always commit the changes to local
+Step 6 - Push - Changes you saved on local with push to remote repository (Drop an email to Pranita
+, i have created a branch with name "US2345_Registration_Feature", please proceed
+with further steps. What she did
+Pranita's Steps
+Step 1 - Pull the latest changes from remote main branch repository to local main branch
+Step 2 - Create Branch - With the same name as Surekha's Branch "US2345_Registration_Feature"
+Step 3 - Switch to newly created branch
+Step 4 - Pull from remote "US2345_Registration_Feature" to local branch "US2345_Registration_Feature"
+Step 5 - Implementation/ code add - Adding Test File and Update Test Data for feature
+Step 6 - Commit - Will always commit the changes to local
+Step 7 - Push - Changes you saved on local with push to remote repository
+Step 8 - Pull Request - Code is available for code review, drop an email with file changed path
+
+Surekha Start a new work assigned till code review comments come
+Step 1 - Switch to main branch & pull latest code
+Step 2 - Create a new branch for inbox
+Step 3 - Switch to that branch
+Step 4 - Implementation (Locator & Action
+Step 5 - Commit
+Step 6 - Push - email drop to pranita with branch name & work completed
+
+Pranita
+Step 1 - Switch to main branch & pull latest code
+Step 2 - Create a same branch for inbox
+Step 3 - Switch to that branch
+Step 4 - Implementation (Test)
+Step 5 - Commit
+Step 6 - Push - email drop to Surekha with branch name & work completed
+
+Surekha morning time - She got review comments from sayali on earlier branch "Registration"
+Step 1 - Swictch to main & pull latest
+Step 2 - Switch to registration branch and pull latest
+Step 3 - Surekha did implementation - code fixes
+Step 4 - Commit
+Step 5 - Push - Email to reviwer with file changed path
+Step 6 - Switch to inbox branch and pull latest
+Step 7 - Start implementation (Test Data)
+Step 8 - Commit
+Step 9 - Push
+Step 10 - Pull request - drop email
+
+
+
+https://www.youtube.com/watch?v=X1zbcG2kvdk&t=2s

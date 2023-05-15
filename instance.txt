@@ -1,0 +1,39 @@
+public class ArithmaticOpration {
+int fistNumber=125;
+int SecondNumber=24;
+	public static void main(String[] args) {
+		//ArithmaticOpration ref=new ArithmaticOpration();
+		//System.out.println(ref.fistNumber);
+		//System.out.println(ref.SecondNumber);
+		Arithmatic obj=new Arithmatic();
+		obj.addition(125, 24);
+		
+		
+		
+	}
+
+	//class Arithmatic{
+		void addition(int a,int b) {
+			 int sum=a+b;
+			System.out.println( sum);
+		}
+		void multiplication(int a,int b) {
+			 int multi=a*b;
+			 System.out.println( multi);
+		}
+		void substraction(int a,int b) {
+			 int sub=a-b;
+			 System.out.println(sub);
+		}
+		
+		void Divide(int a,int b) {
+			 int div=a/b;
+			 System.out.println( div);
+		}
+		
+		void reminder(int a,int b) {
+			 int remin=a%b;
+			 System.out.println( remin);
+		}
+	}
+}
